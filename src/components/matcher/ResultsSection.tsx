@@ -63,7 +63,7 @@ const ResultsSection: React.FC<ResultsSectionProps> = ({ results, onReset }) => 
           initial="hidden"
           animate="show"
           variants={container}
-          className="mb-8"
+          className="mb-8 px-5"
         >
           <motion.div
             variants={confetti}
@@ -194,7 +194,7 @@ const ResultsSection: React.FC<ResultsSectionProps> = ({ results, onReset }) => 
       )}
       
       {otherCandidates.length > 0 && (
-        <div className="mt-8">
+        <div className="mt-8 px-5">
           <h3 className="text-xl font-semibold mb-4">Other Candidates</h3>
           <motion.div
             variants={container}

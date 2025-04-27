@@ -20,13 +20,13 @@ Check out the live demo at [talentmatch.demo.com](https://talentmatch.demo.com)
 ## 📸 Screenshots
 
 ### Landing Page
-![Landing Page](screenshots/landing.png)
+![Landing Page](screenshots/landing-page.png)
 
 ### Resume Matching Interface
-![Resume Matcher](screenshots/resume-matcher.png)
+![Resume Matcher](screenshots/resume-matcher-page.png)
 
 ### Results Analysis
-![Results Analysis](screenshots/results.png)
+![Results Analysis](screenshots/results-page.png)
 
 ## 🔧 Technologies Used
 
@@ -41,8 +41,8 @@ Check out the live demo at [talentmatch.demo.com](https://talentmatch.demo.com)
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/talentmatch.git
-cd talentmatch
+git clone https://github.com/Shyam-Odedra/TalentMatch.git
+cd TalentMatch
 ```
 
 2. Install dependencies:
@@ -50,12 +50,17 @@ cd talentmatch
 npm install
 ```
 
-3. Start the development server:
+3. Add your Gemini API Key:
+```bash
+VITE_GOOGLE_GEMINI_API_KEY=your-api-key
+```
+
+4. Start the development server:
 ```bash
 npm run dev
 ```
 
-4. Build for production:
+5. Build for production:
 ```bash
 npm run build
 ```
@@ -75,28 +80,3 @@ npm run build
 - Upload 1-2 page resumes for optimal matching
 - Include relevant skills and experience in both job descriptions and resumes
 - Limit to 5 resumes per analysis for best performance
-
-## 🌐 Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 📧 Contact
-
-For questions or support, please contact us at support@talentmatch.com 

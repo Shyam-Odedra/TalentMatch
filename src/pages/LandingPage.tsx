@@ -7,7 +7,7 @@ import { BrainCircuit } from 'lucide-react';
 
 const LandingPage: React.FC = () => {
   return (
-    <div className="min-h-screen bg-[#030303] text-white">
+    <div className="min-h-screen bg-[#030303] text-white scrollbar-thin scrollbar-thumb-indigo-600 scrollbar-track-transparent">
       <div className="relative">
         <HeroGeometric 
           badge="AI-Powered Talent Matching"

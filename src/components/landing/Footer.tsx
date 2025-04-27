@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrainCircuit, Github, Twitter, Linkedin } from 'lucide-react';
+import { BrainCircuit, Github, Linkedin } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -14,13 +14,10 @@ const Footer: React.FC = () => {
           </div>
           
           <div className="flex space-x-6">
-            <a href="#" className="text-white/60 hover:text-white transition-colors">
+            <a href="https://github.com/Shyam-Odedra" target='_blank' className="text-white/60 hover:text-white transition-colors">
               <Github size={20} />
             </a>
-            <a href="#" className="text-white/60 hover:text-white transition-colors">
-              <Twitter size={20} />
-            </a>
-            <a href="#" className="text-white/60 hover:text-white transition-colors">
+            <a href="https://www.linkedin.com/in/shyam-odedra-05ab3020a" target='_blank' className="text-white/60 hover:text-white transition-colors">
               <Linkedin size={20} />
             </a>
           </div>
