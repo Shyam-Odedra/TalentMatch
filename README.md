@@ -17,6 +17,8 @@ TalentMatch is an AI-powered resume matching application that helps recruiters a
 
 Check out the live demo at [https://talentmatch-i9q2.onrender.com](https://talentmatch-i9q2.onrender.com)
 
+[Watch the Demo Video](https://drive.google.com/file/d/16Xjbw6komWvFbK_y_g1dV5DTm6pL8ppT/view?usp=drive_link)
+
 ## 📸 Screenshots
 
 ### Landing Page
