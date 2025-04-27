@@ -156,7 +156,7 @@ const UploadSection: React.FC<UploadSectionProps> = ({
           >
             <Upload className={`mx-auto mb-2 ${dropActive ? 'text-indigo-400' : 'text-white/40'}`} size={32} />
             <p className="text-white/60 mb-2">Drag & drop resume files here</p>
-            <p className="text-sm text-white/40 mb-4">Supports: TXT, PDF, DOCX</p>
+            <p className="text-sm text-white/40 mb-4">Supports: PDF, DOCX</p>
             
             <label className="cursor-pointer inline-flex items-center bg-gradient-to-r from-indigo-500 to-rose-500 rounded-lg px-4 py-2 text-white hover:shadow-lg transition-all">
               <Upload size={16} className="mr-2" />

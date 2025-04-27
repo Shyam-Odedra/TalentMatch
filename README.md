@@ -15,7 +15,7 @@ TalentMatch is an AI-powered resume matching application that helps recruiters a
 
 ## 🚀 Live Demo
 
-Check out the live demo at [talentmatch.demo.com](https://talentmatch.demo.com)
+Check out the live demo at [https://talentmatch-i9q2.onrender.com](https://talentmatch-i9q2.onrender.com)
 
 ## 📸 Screenshots
 
@@ -50,7 +50,7 @@ cd TalentMatch
 npm install
 ```
 
-3. Add your Gemini API Key:
+3. Create new .env file and Add your Gemini API Key like this:
 ```bash
 VITE_GOOGLE_GEMINI_API_KEY=your-api-key
 ```
