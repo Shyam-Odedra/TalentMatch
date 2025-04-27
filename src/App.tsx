@@ -10,7 +10,7 @@ function App() {
         <NotificationContainer />
         <Routes>
           <Route path="/" element={<LandingPage />} />
-          <Route path="/app" element={<ResumeMatcher />} />
+          <Route path="/resume-matcher" element={<ResumeMatcher />} />
         </Routes>
       </Router>
     </NotificationProvider>
