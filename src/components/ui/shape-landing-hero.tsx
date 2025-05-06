@@ -4,6 +4,8 @@ import { motion, useMotionValue, useTransform, animate } from "framer-motion";
 import { Circle } from "lucide-react";
 import { useEffect, useState } from "react";
 import { cn } from "../../lib/utils";
+import { Link } from 'react-router-dom';
+
 
 
 function ElegantShape({
@@ -200,12 +202,12 @@ function HeroGeometric({
                         initial="hidden"
                         animate="visible"
                     >
-                        <a
-                            href="/resume-matcher"
+                        <Link
+                            to="/resume-matcher"
                             className="inline-flex items-center justify-center px-8 py-3 rounded-full bg-gradient-to-r from-indigo-500 to-rose-500 text-white font-medium shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 active:scale-95"
                         >
                             Get Started
-                        </a>
+                        </Link>
                     </motion.div>
                 </div>
             </div>

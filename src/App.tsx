@@ -1,4 +1,4 @@
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import LandingPage from './pages/LandingPage';
 import ResumeMatcher from './pages/ResumeMatcher';
 import { NotificationProvider, NotificationContainer } from './contexts/NotificationContext';
